@@ -11,43 +11,57 @@ import SwiftUI
 struct workoutButtons: View {
     var body: some View {
         HStack {
-            Text("Bicep")
-                .foregroundColor(.blue)
-                .fontWeight(.bold)
-                .foregroundColor(.white)
-                .font(.title)
-                .padding()
-                .cornerRadius(40)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 40)
-                        .stroke(Color.blue, lineWidth: 3.5)
-            )
-            Spacer()
-            Text("Tricep")
-                .foregroundColor(.blue)
-                .fontWeight(.bold)
-                .foregroundColor(.white)
-                .font(.title)
-                .padding()
-                .cornerRadius(40)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 40)
-                        .stroke(Color.blue, lineWidth: 3.5)
-            )
-            Spacer()
-            Text("Chest")
-                .foregroundColor(.blue)
-                .fontWeight(.bold)
-                .foregroundColor(.white)
-                .font(.title)
-                .padding()
-                .cornerRadius(40)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 40)
-                        .stroke(Color.blue, lineWidth: 3.5)
-            )
             
-            } .padding()
+            Button(action: {
+                print("ITS WORKING!!")
+            })  {
+                Text("Bicep")
+                    .foregroundColor(.blue)
+                    .fontWeight(.bold)
+                    .foregroundColor(.white)
+                    .font(.title)
+                    .padding()
+                    .cornerRadius(40)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 40)
+                            .stroke(Color.blue, lineWidth: 3.5)
+            )
+            }
+            Spacer()
+            
+            Button(action: {
+                print("ITS WORKING!!")
+            })  {
+                Text("Tricep")
+                    .foregroundColor(.blue)
+                    .fontWeight(.bold)
+                    .foregroundColor(.white)
+                    .font(.title)
+                    .padding()
+                    .cornerRadius(40)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 40)
+                            .stroke(Color.blue, lineWidth: 3.5)
+            )
+            }
+            Spacer()
+            
+            Button(action: {
+                print("ITS WORKING!!")
+            })  {
+                Text("Bicep")
+                    .foregroundColor(.blue)
+                    .fontWeight(.bold)
+                    .foregroundColor(.white)
+                    .font(.title)
+                    .padding()
+                    .cornerRadius(40)
+                    .overlay(
+                        RoundedRectangle(cornerRadius: 40)
+                            .stroke(Color.blue, lineWidth: 3.5)
+            )
+        }
+    } .padding()
 }
 
 struct WorkoutCircle_Previews: PreviewProvider {

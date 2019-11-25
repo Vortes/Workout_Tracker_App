@@ -14,7 +14,7 @@ struct ContentView: View {
             VStack {
                 Text("Hi! which body part do you want to work out today?")
                     .font(.title)
-            }
+            } .padding(.top, 100)
             
             VStack {
                 Spacer()
