@@ -15,6 +15,7 @@
 		E7192FB2238C580E00A2B2EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7192FB0238C580E00A2B2EE /* LaunchScreen.storyboard */; };
 		E7192FBD238C580E00A2B2EE /* Workout_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7192FBC238C580E00A2B2EE /* Workout_TrackerTests.swift */; };
 		E7192FC8238C580E00A2B2EE /* Workout_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7192FC7238C580E00A2B2EE /* Workout_TrackerUITests.swift */; };
+		E7192FD6238C719D00A2B2EE /* WorkoutCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7192FD5238C719D00A2B2EE /* WorkoutCircle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		E7192FC3238C580E00A2B2EE /* Workout TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Workout TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7192FC7238C580E00A2B2EE /* Workout_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout_TrackerUITests.swift; sourceTree = "<group>"; };
 		E7192FC9238C580F00A2B2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7192FD5238C719D00A2B2EE /* WorkoutCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutCircle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				E7192FB0238C580E00A2B2EE /* LaunchScreen.storyboard */,
 				E7192FB3238C580E00A2B2EE /* Info.plist */,
 				E7192FAD238C580E00A2B2EE /* Preview Content */,
+				E7192FD5238C719D00A2B2EE /* WorkoutCircle.swift */,
 			);
 			path = "Workout Tracker";
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				E7192FA6238C580D00A2B2EE /* AppDelegate.swift in Sources */,
 				E7192FA8238C580D00A2B2EE /* SceneDelegate.swift in Sources */,
 				E7192FAA238C580D00A2B2EE /* ContentView.swift in Sources */,
+				E7192FD6238C719D00A2B2EE /* WorkoutCircle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
