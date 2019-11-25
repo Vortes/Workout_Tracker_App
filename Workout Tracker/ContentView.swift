@@ -18,7 +18,7 @@ struct ContentView: View {
             
             VStack {
                 Spacer()
-                WorkoutCircle()
+                workoutButtons()
                 Spacer()
                 Spacer()
                 Spacer()

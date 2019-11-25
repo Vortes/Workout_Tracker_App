@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct WorkoutCircle: View {
+struct workoutButtons: View {
     var body: some View {
         HStack {
             Text("Bicep")
@@ -52,7 +52,7 @@ struct WorkoutCircle: View {
 
 struct WorkoutCircle_Previews: PreviewProvider {
     static var previews: some View {
-        WorkoutCircle()
+        workoutButtons()
         }
     }
 }
