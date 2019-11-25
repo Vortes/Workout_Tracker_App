@@ -11,7 +11,7 @@ import SwiftUI
 struct WorkoutCircle: View {
     var body: some View {
         HStack {
-            Text("Bicep")
+            Text("Bicep!")
                 .foregroundColor(.blue)
                 .fontWeight(.bold)
                 .foregroundColor(.white)
@@ -23,7 +23,7 @@ struct WorkoutCircle: View {
                         .stroke(Color.blue, lineWidth: 3.5)
             )
             Spacer()
-            Text("Tricep")
+            Text("Tricep!")
                 .foregroundColor(.blue)
                 .fontWeight(.bold)
                 .foregroundColor(.white)
@@ -35,7 +35,7 @@ struct WorkoutCircle: View {
                         .stroke(Color.blue, lineWidth: 3.5)
             )
             Spacer()
-            Text("Chest")
+            Text("Chest!")
                 .foregroundColor(.blue)
                 .fontWeight(.bold)
                 .foregroundColor(.white)
