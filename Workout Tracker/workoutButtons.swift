@@ -11,7 +11,6 @@ import SwiftUI
 struct workoutButtons: View {
     var body: some View {
         HStack {
-            
             Button(action: {
                 print("ITS WORKING!!")
             })  {

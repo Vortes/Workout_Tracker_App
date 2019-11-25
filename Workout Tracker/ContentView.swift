@@ -11,14 +11,20 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            VStack {
-                Text("Hi! which body part do you want to work out today?")
-                    .font(.title)
+            VStack(alignment: .leading){
+                Text("TIME TO WORKOUT!")
+                    .font(.system(size: 40))
+                    .fontWeight(.bold)
+                
+                Text("Today's Date: ")
+                    .font(.headline)
             } .padding(.top, 100)
             
             VStack {
                 Spacer()
                 workoutButtons()
+                Spacer()
+                Spacer()
                 Spacer()
                 Spacer()
                 Spacer()
