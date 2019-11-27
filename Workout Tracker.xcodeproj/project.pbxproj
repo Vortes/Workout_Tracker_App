@@ -18,6 +18,7 @@
 		E7192FD6238C719D00A2B2EE /* workoutButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7192FD5238C719D00A2B2EE /* workoutButtons.swift */; };
 		E770F625238CC31400076AA7 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E770F624238CC31300076AA7 /* Calendar.swift */; };
 		E770F627238CDFAB00076AA7 /* Push.swift in Sources */ = {isa = PBXBuildFile; fileRef = E770F626238CDFAB00076AA7 /* Push.swift */; };
+		E7E3F8F5238EF4CA005352D3 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E3F8F4238EF4CA005352D3 /* HostingController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		E7192FD5238C719D00A2B2EE /* workoutButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutButtons.swift; sourceTree = "<group>"; };
 		E770F624238CC31300076AA7 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 		E770F626238CDFAB00076AA7 /* Push.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Push.swift; sourceTree = "<group>"; };
+		E7E3F8F4238EF4CA005352D3 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				E7192FD5238C719D00A2B2EE /* workoutButtons.swift */,
 				E770F624238CC31300076AA7 /* Calendar.swift */,
 				E770F626238CDFAB00076AA7 /* Push.swift */,
+				E7E3F8F4238EF4CA005352D3 /* HostingController.swift */,
 			);
 			path = "Workout Tracker";
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 				E770F627238CDFAB00076AA7 /* Push.swift in Sources */,
 				E7192FA8238C580D00A2B2EE /* SceneDelegate.swift in Sources */,
 				E7192FAA238C580D00A2B2EE /* ContentView.swift in Sources */,
+				E7E3F8F5238EF4CA005352D3 /* HostingController.swift in Sources */,
 				E7192FD6238C719D00A2B2EE /* workoutButtons.swift in Sources */,
 				E770F625238CC31400076AA7 /* Calendar.swift in Sources */,
 			);
