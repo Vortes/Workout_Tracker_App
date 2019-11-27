@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Calendar.swift
 //  Workout Tracker
 //
 //  Created by Alan Weng on 11/25/19.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Calendar: View {
     var body: some View {
-        workoutButtons()
+        Text("Fuck this shit")
+    }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Calendar_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
-        }
+        Calendar()
     }
 }

@@ -16,6 +16,8 @@
 		E7192FBD238C580E00A2B2EE /* Workout_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7192FBC238C580E00A2B2EE /* Workout_TrackerTests.swift */; };
 		E7192FC8238C580E00A2B2EE /* Workout_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7192FC7238C580E00A2B2EE /* Workout_TrackerUITests.swift */; };
 		E7192FD6238C719D00A2B2EE /* workoutButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7192FD5238C719D00A2B2EE /* workoutButtons.swift */; };
+		E770F625238CC31400076AA7 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E770F624238CC31300076AA7 /* Calendar.swift */; };
+		E770F627238CDFAB00076AA7 /* Push.swift in Sources */ = {isa = PBXBuildFile; fileRef = E770F626238CDFAB00076AA7 /* Push.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		E7192FC7238C580E00A2B2EE /* Workout_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout_TrackerUITests.swift; sourceTree = "<group>"; };
 		E7192FC9238C580F00A2B2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7192FD5238C719D00A2B2EE /* workoutButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutButtons.swift; sourceTree = "<group>"; };
+		E770F624238CC31300076AA7 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
+		E770F626238CDFAB00076AA7 /* Push.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Push.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 				E7192FB3238C580E00A2B2EE /* Info.plist */,
 				E7192FAD238C580E00A2B2EE /* Preview Content */,
 				E7192FD5238C719D00A2B2EE /* workoutButtons.swift */,
+				E770F624238CC31300076AA7 /* Calendar.swift */,
+				E770F626238CDFAB00076AA7 /* Push.swift */,
 			);
 			path = "Workout Tracker";
 			sourceTree = "<group>";
@@ -271,9 +277,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7192FA6238C580D00A2B2EE /* AppDelegate.swift in Sources */,
+				E770F627238CDFAB00076AA7 /* Push.swift in Sources */,
 				E7192FA8238C580D00A2B2EE /* SceneDelegate.swift in Sources */,
 				E7192FAA238C580D00A2B2EE /* ContentView.swift in Sources */,
 				E7192FD6238C719D00A2B2EE /* workoutButtons.swift in Sources */,
+				E770F625238CC31400076AA7 /* Calendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,13 +448,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Workout Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = LUBHD22X5N;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Workout Tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Workout-Tracker";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Workout-Tracker-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -459,13 +468,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Workout Tracker/Preview Content\"";
+				DEVELOPMENT_TEAM = LUBHD22X5N;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Workout Tracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Workout-Tracker";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Workout-Tracker-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

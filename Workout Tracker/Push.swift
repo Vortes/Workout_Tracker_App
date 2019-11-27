@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Push.swift
 //  Workout Tracker
 //
 //  Created by Alan Weng on 11/25/19.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Push: View {
     var body: some View {
-        workoutButtons()
+        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+    }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Push_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
-        }
+        Push()
     }
 }
