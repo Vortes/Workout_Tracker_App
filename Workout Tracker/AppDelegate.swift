@@ -15,6 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let background_color = UIColor(red: 27/255, green: 28/255, blue: 30/255, alpha: 1)
+        UITableView.appearance().backgroundColor = background_color
         return true
     }
 

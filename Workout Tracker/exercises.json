@@ -1,0 +1,37 @@
+[
+    {
+        "name": "Bench Press",
+        "category": "Featured",
+        "id": 1001,
+        "park": "Joshua Tree National Park",
+        "imageName": "benchPress"
+    },
+    {
+        "name": "Decline bench press",
+        "category": "Featured",
+        "id": 1002,
+        "park": "Joshua Tree National Park",
+        "imageName": "benchPress"
+    },
+    {
+        "name": "Incline bench press",
+        "category": "Featured",
+        "id": 1003,
+        "park": "Joshua Tree National Park",
+        "imageName": "benchPress"
+    },
+    {
+        "name": "Overhead press",
+        "category": "Featured",
+        "id": 1004,
+        "park": "Joshua Tree National Park",
+        "imageName": "benchPress"
+    },
+    {
+        "name": "Clap press-up",
+        "category": "Featured",
+        "id": 1005,
+        "park": "Joshua Tree National Park",
+        "imageName": "benchPress"
+    },
+]

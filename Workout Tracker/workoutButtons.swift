@@ -21,12 +21,12 @@ struct workoutButtons: View {
                 .fontWeight(.bold)
                 .offset(y:-75)
             Text("Today's Date: November 27 2019")
-                .foregroundColor(.white)
+                .foregroundColor(Color(red: 155 / 255, green: 130 / 255, blue: 255 / 255))
                 .font(.subheadline)
                 .fontWeight(.bold)
                 .offset(y:-50)
         HStack {
-            NavigationLink(destination: Calendar()) {
+            NavigationLink(destination: PushRow()) {
                 Text("PUSH")
                     .foregroundColor(.white)
                     .fontWeight(.bold)

@@ -16,9 +16,9 @@
 		E7192FBD238C580E00A2B2EE /* Workout_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7192FBC238C580E00A2B2EE /* Workout_TrackerTests.swift */; };
 		E7192FC8238C580E00A2B2EE /* Workout_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7192FC7238C580E00A2B2EE /* Workout_TrackerUITests.swift */; };
 		E7192FD6238C719D00A2B2EE /* workoutButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7192FD5238C719D00A2B2EE /* workoutButtons.swift */; };
-		E770F625238CC31400076AA7 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E770F624238CC31300076AA7 /* Calendar.swift */; };
-		E770F627238CDFAB00076AA7 /* Push.swift in Sources */ = {isa = PBXBuildFile; fileRef = E770F626238CDFAB00076AA7 /* Push.swift */; };
+		E770F625238CC31400076AA7 /* PushRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E770F624238CC31300076AA7 /* PushRow.swift */; };
 		E7E3F8F5238EF4CA005352D3 /* HostingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E3F8F4238EF4CA005352D3 /* HostingController.swift */; };
+		E7E3F8F7238F0CA3005352D3 /* exercises.json in Resources */ = {isa = PBXBuildFile; fileRef = E7E3F8F6238F0CA3005352D3 /* exercises.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,9 +54,9 @@
 		E7192FC7238C580E00A2B2EE /* Workout_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workout_TrackerUITests.swift; sourceTree = "<group>"; };
 		E7192FC9238C580F00A2B2EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7192FD5238C719D00A2B2EE /* workoutButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = workoutButtons.swift; sourceTree = "<group>"; };
-		E770F624238CC31300076AA7 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
-		E770F626238CDFAB00076AA7 /* Push.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Push.swift; sourceTree = "<group>"; };
+		E770F624238CC31300076AA7 /* PushRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushRow.swift; sourceTree = "<group>"; };
 		E7E3F8F4238EF4CA005352D3 /* HostingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostingController.swift; sourceTree = "<group>"; };
+		E7E3F8F6238F0CA3005352D3 /* exercises.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exercises.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +115,9 @@
 				E7192FB3238C580E00A2B2EE /* Info.plist */,
 				E7192FAD238C580E00A2B2EE /* Preview Content */,
 				E7192FD5238C719D00A2B2EE /* workoutButtons.swift */,
-				E770F624238CC31300076AA7 /* Calendar.swift */,
-				E770F626238CDFAB00076AA7 /* Push.swift */,
+				E770F624238CC31300076AA7 /* PushRow.swift */,
 				E7E3F8F4238EF4CA005352D3 /* HostingController.swift */,
+				E7E3F8F6238F0CA3005352D3 /* exercises.json */,
 			);
 			path = "Workout Tracker";
 			sourceTree = "<group>";
@@ -255,6 +255,7 @@
 				E7192FB2238C580E00A2B2EE /* LaunchScreen.storyboard in Resources */,
 				E7192FAF238C580E00A2B2EE /* Preview Assets.xcassets in Resources */,
 				E7192FAC238C580E00A2B2EE /* Assets.xcassets in Resources */,
+				E7E3F8F7238F0CA3005352D3 /* exercises.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,12 +281,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7192FA6238C580D00A2B2EE /* AppDelegate.swift in Sources */,
-				E770F627238CDFAB00076AA7 /* Push.swift in Sources */,
 				E7192FA8238C580D00A2B2EE /* SceneDelegate.swift in Sources */,
 				E7192FAA238C580D00A2B2EE /* ContentView.swift in Sources */,
 				E7E3F8F5238EF4CA005352D3 /* HostingController.swift in Sources */,
 				E7192FD6238C719D00A2B2EE /* workoutButtons.swift in Sources */,
-				E770F625238CC31400076AA7 /* Calendar.swift in Sources */,
+				E770F625238CC31400076AA7 /* PushRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
